@@ -1,4 +1,4 @@
-# Composer: Work
+# Anonymus: Magnificat (A-Ed G 9)
 
 Engraving files for LilyPond 2.22.0
 
