@@ -29,20 +29,20 @@
        (stretchability . 0))
 
 	top-system-spacing =
-    #'((basic-distance . 20)
-       (minimum-distance . 20)
+    #'((basic-distance . 10)
+       (minimum-distance . 10)
        (padding . -100)
        (stretchability . 0))
 
 	top-markup-spacing =
-    #'((basic-distance . 5)
-       (minimum-distance . 5)
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
        (padding . -100)
        (stretchability . 0))
 
 	markup-system-spacing =
-    #'((basic-distance . 15)
-       (minimum-distance . 15)
+    #'((basic-distance . 10)
+       (minimum-distance . 10)
        (padding . -100)
        (stretchability . 0))
 
@@ -458,7 +458,7 @@ bc =
 	\context {
 		\Score
 		\compressEmptyMeasures
-		\override BarNumber.break-visibility = #'#(#f #t #t)
+		% \override BarNumber.break-visibility = #'#(#f #t #t)
 	}
 	\context {
 		\StaffGroup
@@ -669,6 +669,13 @@ tocLabelLong = #(define-music-function
 
 
 tempoMagnificat = \tempoMarkup "Adagio"
+tempoEtExultavit = \tempoMarkup "Allegro"
+tempoQuia = \tempoMarkup "[Andante]"
+tempoEtMisericordia = \tempoMarkup "Adagio"
+tempoFecit = \tempoMarkup "[Allegro]"
+tempoSuscepit = \tempoMarkup "Adagio"
+tempoGloria = \tempoMarkup "Adagio"
+tempoEtIn = \tempoMarkup "Andante"
 
 
 \include "notes/vl1.ly"

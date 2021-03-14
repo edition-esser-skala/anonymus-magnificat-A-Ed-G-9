@@ -2,7 +2,7 @@
 
 \include "../definitions.ly"
 
-\paper { }
+\paper { systems-per-page = #2 }
 
 #(set-global-staff-size 15.87)
 
@@ -68,7 +68,7 @@
 				\new FiguredBass { \BassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
