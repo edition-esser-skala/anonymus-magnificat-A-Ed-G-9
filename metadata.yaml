@@ -1,0 +1,15 @@
+composer: Anonymus
+title: Magnificat
+id: (A-Ed G 9)
+genre: canticle
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+sources:
+  1:
+    siglum: A-Ed
+    shelfmark: G 9
+    type: manuscript copy
+    date: unknown
+    rism: 600038406
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/366.html
+github: anonymus-magnificat-A-Ed-G-9
+imslp: Magnificat,_A-Ed_G_9_(Anonymous)
